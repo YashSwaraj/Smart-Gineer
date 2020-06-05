@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="nbar.css">
+<link rel="stylesheet" href="add_question.css">
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" style="padding:0; margin:0"><img src="logo_small_final.png" style="width: 88px;height: 44px;"></a>
+  <a href="" class="navactive">Add a question!</a>
+  <a href="contact.html">Contact us</a>
+  <a href="about.html">What is Smart Gineer?</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="course">Course</label>
+    <select id="course" name="course">
+      <option value="select">Select</option>
+      <option value="cse">CSE</option>
+      <option value="Mechanical">Mechanical</option>
+      <option value="civil">Civil</option>
+    </select>
+
+    <label for="subject">Question</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
